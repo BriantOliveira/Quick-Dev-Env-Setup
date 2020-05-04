@@ -23,7 +23,7 @@ These are my personalized custom script to setup my developer environment in any
 ```Quick-Dev-Env-Setup```
 
 3. Execute bash script
-```bash script.sh or  bash <(curl -s https://github.com/BriantOliveira/Quick-Dev-Env-Setup/blob/master/script.sh)```
+```bash script.sh or  bash <(curl -s https://raw.githubusercontent.com/BriantOliveira/Quick-Dev-Env-Setup/master/script.sh)```
 
 4. Copy aliases and zsh cofiguration over the .zshrc to your root user .zshrc file 
 ``` cp -R .zshrc ~/ ```
