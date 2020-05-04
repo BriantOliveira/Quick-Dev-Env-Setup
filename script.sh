@@ -104,3 +104,5 @@ brew cask install flotato
 echo "Installing selected documentation tool"
 brew cask install devdocs
 
+# Installing Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
