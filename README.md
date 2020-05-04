@@ -13,6 +13,7 @@ These are my personalized custom script to setup my developer environment in any
 - Fantastical
 - Flotato
 - Devdocs
+- Oh-my-zsh
 
 ### Quick setup 
 
