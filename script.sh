@@ -56,7 +56,7 @@ brew install heroku
 brew cask install caffeine
 brew cask install docker
 brew cask install ngrok
-brew install postman
+brew cask install postman
 
 # Install all databases requested
 echo "Installing selected tools on to the system"
