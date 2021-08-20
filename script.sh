@@ -30,7 +30,7 @@ brew install go
 
 # Install all terminals requested
 echo "Installing selected terminal emulators on to the system"
-brew cask install iterm2
+brew install --cask iterm2
 
 # Install all shells requested
 echo "Installing selected shells on to the system"
@@ -43,17 +43,17 @@ sudo -s "echo /usr/local/bin/zsh >> /etc/shells" && chsh -s /usr/local/bin/zsh
 
 # Install all browsers requested
 echo "Installing selected browsers on to the system"
-brew cask install brave-browser
+brew install --cask brave-browser
 
 # Install all editors requested
 echo "Installing selected editors on to the system"
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 
 # Install all tools requested
 echo "Installing selected tools on to the system"
 brew install heroku
-brew cask install caffeine
-brew cask install docker
+brew install --cask caffeine
+brew install --cask docker
 
 
 # Install all databases requested
@@ -64,46 +64,46 @@ sudo chown -R $USER /data/db
 
 # Install Spotify
 echo "Installing selected music streaming service"
-brew cask install spotify
+brew install --cask spotify
 
 # Install Slack 
 echo "Installing selected communitcation tool"
-brew cask install slack 
+brew install --cask slack 
 
 #Install Discord 
-brew cask install discord
+brew install --cask discord
 
 # Install GitKraken
 echo "Installing selected communitcation tool"
-brew cask install gitkraken
+brew install --cask gitkraken
 
 # Install Grammarly
 echo "Installing selected git client"
-brew cask install grammarly
+brew install --cask grammarly
 
 # Install 1Password (Password Manager)
 echo "Installing selected password manager"
-brew cask install 1password
+brew install --cask 1password
 
 # Install Anaconda
 echo "Installing selected python distribution platform"
-brew cask install anaconda
+brew install --cask anaconda
 
 # Install Postico
 echo "Installing selected database interface"
-brew cask install postico
+brew install --cask postico
 
 # Install Paw
 echo "Installing selected development tools"
-brew cask install paw
+brew install --cask paw
 
 # Install Devdocs
 echo "Installing selected documentation tool"
-brew cask install devdocs
+brew install --cask devdocs
 
 # Installing Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install Adobe Creative Cloud
 echo "Installing selected adobe tools"
-brew cask install adobe-creative-cloud
+brew install --cask adobe-creative-cloud
