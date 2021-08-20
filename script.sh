@@ -51,7 +51,7 @@ brew install --cask visual-studio-code
 
 # Install all tools requested
 echo "Installing selected tools on to the system"
-brew install heroku
+brew tap heroku/brew && brew install heroku
 brew install --cask caffeine
 brew install --cask docker
 
