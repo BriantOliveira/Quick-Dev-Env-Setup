@@ -43,7 +43,6 @@ sudo -s "echo /usr/local/bin/zsh >> /etc/shells" && chsh -s /usr/local/bin/zsh
 
 # Install all browsers requested
 echo "Installing selected browsers on to the system"
-brew cask install google-chrome
 brew cask install brave-browser
 
 # Install all editors requested
@@ -55,8 +54,7 @@ echo "Installing selected tools on to the system"
 brew install heroku
 brew cask install caffeine
 brew cask install docker
-brew cask install ngrok
-brew cask install postman
+
 
 # Install all databases requested
 echo "Installing selected tools on to the system"
@@ -71,6 +69,9 @@ brew cask install spotify
 # Install Slack 
 echo "Installing selected communitcation tool"
 brew cask install slack 
+
+#Install Discord 
+brew cask install discord
 
 # Install GitKraken
 echo "Installing selected communitcation tool"
@@ -88,17 +89,13 @@ brew cask install 1password
 echo "Installing selected python distribution platform"
 brew cask install anaconda
 
-# Install App Cleaner
-echo "Installing selected app cleaner tool"
-brew cask install app-cleaner
+# Install Postico
+echo "Installing selected database interface"
+brew cask install postico
 
-# Install Fantastical Calendar
-echo "Installing selected calendar tool"
-brew cask install fantastical
-
-# Install Flotato
-echo "Installing selected web tool"
-brew cask install flotato
+# Install Paw
+echo "Installing selected development tools"
+brew cask install paw
 
 # Install Devdocs
 echo "Installing selected documentation tool"
@@ -106,3 +103,7 @@ brew cask install devdocs
 
 # Installing Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install Adobe Creative Cloud
+echo "Installing selected adobe tools"
+brew cask install adobe-creative-cloud
