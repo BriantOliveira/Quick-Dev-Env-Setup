@@ -97,9 +97,5 @@ brew install --cask postico
 echo "Installing selected development tools"
 brew install --cask paw
 
-# Install Devdocs
-echo "Installing selected documentation tool"
-brew install --cask devdocs
-
 # Installing Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
