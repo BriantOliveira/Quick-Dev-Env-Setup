@@ -103,7 +103,3 @@ brew install --cask devdocs
 
 # Installing Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Install Adobe Creative Cloud
-echo "Installing selected adobe tools"
-brew install --cask adobe-creative-cloud
