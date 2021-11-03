@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/elliotbriant/.oh-my-zsh"
+export ZSH="/Users/briantoliveira/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -112,7 +112,7 @@ alias goland="/usr/local/bin/goland"
 alias listen="sudo lsof -PiTCP -sTCP:LISTEN"
 alias siz="du -sh"
 alias grmf="git rm -r"
-alias paysplit="/Users/elliotbriant/Documents/PaySplit"
+alias paysplit="cd /Users/briantoliveira/Desktop/Repositories/paysplit-for-creators"
 alias Code="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 #source $HOME/.zshenv
 alias gel="git push -u origin elliot"
@@ -129,6 +129,3 @@ function code {
     fi
 }
 
-
-#PSQL
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
