@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/briantoliveira/.oh-my-zsh"
+export ZSH="/Users/elliotbriant/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -108,6 +108,9 @@ alias gs="git status"
 alias gc="git commit -m"
 alias gp="git push -u origin master"
 alias gpp="git push github"
+alias gbf=`git branch -r | grep -v '\->' | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | while read remote; do git branch --track "${remote#origin/}" "$remote"; done`
+alias gfa="git fetch --all"
+alias gpa="git pull --all"
 alias goland="/usr/local/bin/goland"
 alias listen="sudo lsof -PiTCP -sTCP:LISTEN"
 alias siz="du -sh"
@@ -129,3 +132,10 @@ function code {
     fi
 }
 
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/elliotbriant/Desktop/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/elliotbriant/Desktop/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/elliotbriant/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/elliotbriant/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
